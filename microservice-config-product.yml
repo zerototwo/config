@@ -5,7 +5,7 @@
 server:
   port: 8001
 mybatis:
-  config-location: classpath:/mybatis.cfg.xml
+  config-location: classpath:/mybatis-cfg.xml
   type-aliases-package: com.lpp.entities
   mapper-location: classpath:/mapper/**/*.xml
 spring:
@@ -36,7 +36,7 @@ eureka:
 server:
   port: 8001
 mybatis:
-  config-location: classpath:/mybatis.cfg.xml
+  config-location: classpath:/mybatis-cfg.xml
   type-aliases-package: com.lpp.entities
   mapper-location: classpath:/mapper/*.xml
 spring:
