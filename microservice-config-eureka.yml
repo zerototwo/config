@@ -23,7 +23,7 @@ eureka:
 server:
   port: 6001
 spring:
-  profiles: dev
+  profiles: pro
   application:
     name: ms-config-eureka
 
@@ -31,10 +31,10 @@ eureka:
   instance:
     hostname: eureka6001.com
   client:
-    register-with-eureka: false
     fetch-registry: false
+    register-with-eureka: false
     serviceUrl:
       defaultZone: http://127.0.0.1:6001/eureka/
-   server:
-     enable-self-preservation: true
+  server:
+    enable-self-preservation: true
    
