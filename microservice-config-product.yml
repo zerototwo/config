@@ -40,7 +40,7 @@ mybatis:
   type-aliases-package: com.lpp.entities
   mapper-location: classpath:/mapper/*.xml
 spring:
-  profiles: dev
+  profiles: prod
   application:
     name: ms-product-config
   datasource:
