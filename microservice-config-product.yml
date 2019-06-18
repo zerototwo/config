@@ -7,7 +7,7 @@ server:
 mybatis:
   config-location: classpath:/mybatis.cfg.xml
   type-aliases-package: com.lpp.entities
-  mapper-location: classpath: /mapper/*.xml
+  mapper-location: classpath: /mapper/**/*.xml
 spring:
   profiles: dev
   application:
